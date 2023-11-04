@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+@media screen and (max-width: 400px){
+    main.home .form button{
+        position: fixed;
+        bottom: 20px;
+        width: 100%;
+        margin: 0;
+        left: 20px;
+        right: 20px;
+
+    }
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+header .content ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+}
+
+header .content ul li {
+    margin-left: 50px;
+}
+
+header .active {
+    color: blue;
+}
+
+header {
+    border-bottom: 1px solid #666;;
+}
+
+main.home {
+    margin-top: 50px;
+}
+
+main .des{
+    color: #666;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+main.home .form {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main.home .form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    border: 1px solid #666;
+    height: 48px;
+    font-size: 16px;
+    padding: 0px 16px;
+    border-radius: 8px;
+}
+
+main.home .form button{
+border: none;
+border-radius: 8px;
+margin-left: 16px;
+height: 48px;
+padding: 0px 14px;
+font-size: 18px;
+background-color: blue;
+color: white;
+}
+
+main.home .todolist {
+    margin-top: 24px;
+}
+
+main.home .todolist .todoitem {
+    background-color: #eee;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 16px;
+
+}
+
+main.home .todolist .todoitem p {
+    font-size: 22px;
+}
+
+main.home .todolist .todoitem button{
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 32px;
+    width: 32px;
+    border: 1px solid red;
+    color: red;
+}
+
+main.about {
+    margin-top: 50px;
+}
+
+main .total {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #666;
+}
